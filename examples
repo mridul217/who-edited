@@ -1,0 +1,21 @@
+# Single line info
+who-edited line app.py --line 42
+
+# With diff and highlight
+who-edited line app.py --line 42 --diff --highlight
+
+# Summary of contributors in a file
+who-edited summary app.py
+
+# Show full history for a line
+who-edited history app.py 42
+
+# Search commits by keyword
+who-edited search app.py "fix bug"
+
+# Show recent files modified in repo
+who-edited recent /path/to/repo
+
+# Show blame info for line range
+who-edited blame-range app.py 10-20
+
